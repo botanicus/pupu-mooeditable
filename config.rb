@@ -1,8 +1,8 @@
 # dependencies of the pupu
-#dependencies :mootools
+dependency :mootools
 
 # javascripts for loading
-javascripts "mooeditable", :in => "lib"
+javascripts "mooeditable"
 
 # parameters of plugin
 # it will be blank in most cases

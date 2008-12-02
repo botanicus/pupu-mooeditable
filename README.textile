@@ -6,17 +6,13 @@ h1. About mooeditable
 
 h1. Usage
 
+h2. Initializer
+
+Edit the public/javascripts/initializers/mooeditable.js.
+
 h2. Layout
 
 <pre>
 # for basic functionality
 plugin :mooeditable
-</pre>
-
-h2. Initializers
-
-<pre>
-window.addEvent("domready", function() {
-  // do the init stuff
-})
 </pre>
