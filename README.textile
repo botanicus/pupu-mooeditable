@@ -1,6 +1,14 @@
-h1. About merb_pupu
+h1. About Pupu
 
-Merb_pupu is a plugin system for merb's public stuff like mootools plugins, icon sets etc. It knows dependencies and it has CLI interface, so it's really easy to bundle such plugins into your app. Please see http://github.com/botanicus/merb_pupu for more informations.
+"Pupu":http://github.com/botanicus/pupu is a framework-agnostic plugin system for media stuff like JS/CSS frameworks and its plugins, icon sets etc. It provides CLI interface for searching, installing and updating pupus from GitHub and it also provides a helper for including static files from pupu into your HTML page. Both CLI and helper can handle dependencies.
+
+CLI example:
+
+<pre>
+pupu install botanicus/autocompleter
+~ Downloading botanicus/autocompleter
+~ Downloading dependency botanicus/mootools
+</pre>
 
 h1. About mooeditable
 
